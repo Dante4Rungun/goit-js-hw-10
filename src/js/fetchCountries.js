@@ -115,7 +115,6 @@ export default function fetchCountries(value,list,info){
         })
         .catch(error => {
             errorMess(list,info)
-            console.log(error)
           })
     }
     else {
